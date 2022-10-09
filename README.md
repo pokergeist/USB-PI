@@ -26,7 +26,7 @@ You'll see cut jumpers in the schematic and on the board. This is my current way
 
 Unbuild and untested.
 
-A parts list is below. The CSV [parts list file](board/USB-PI_parts.csv) is in the board directory. 3-D printed enclosure files are pending.
+A parts list is below. The CSV [parts list file](board/USB-PI-DK-parts.csv) is in the board directory. 3-D printed enclosure files are pending.
 
 ...
 
