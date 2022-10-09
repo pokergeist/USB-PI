@@ -28,8 +28,6 @@ Unbuild and untested.
 
 A parts list is pending, plus a 3-D printed enclosure.
 
-I'll probably shuffle things around a bit to get the power connector closer to the voltage regulator, and have it pointed toward one of the ends so it won't be so awkward.
-
 ...
 
 ## Schematic and Board Images:
