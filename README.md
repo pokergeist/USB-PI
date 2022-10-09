@@ -24,7 +24,7 @@ You'll see cut jumpers in the schematic and on the board. This is my current way
 
 ## Status
 
-Unbuild and untested.
+**Unbuilt and untested.** **Use at your own risk.** No warranty is implied. This is a DIY project. Things go wrong.
 
 A parts list is below. The CSV [parts list file](board/USB-PI-DK-parts.csv) is in the board directory. 3-D printed enclosure files are pending.
 
