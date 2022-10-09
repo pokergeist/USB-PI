@@ -26,7 +26,7 @@ You'll see cut jumpers in the schematic and on the board. This is my current way
 
 Unbuild and untested.
 
-A parts list is pending, plus a 3-D printed enclosure.
+A parts list is below. The CSV [parts list file](board/USB-PI_parts.csv) is in the board directory. 3-D printed enclosure files are pending.
 
 ...
 
@@ -56,6 +56,6 @@ A parts list is pending, plus a 3-D printed enclosure.
 | USB Header In/Out |         1x4         | 0.1"  | 39.4 mil |   [S1211EC-08-ND](https://www.digikey.com/short/m4cnmnhh)    | 1x8 break-away .032" contact 3A gold **OPTIONAL** |
 |       Cable       |      UR024-001      |   -   |    -     |      [TL502-ND](https://www.digikey.com/short/z9fq5374)      | Tripp Lite 1' 24AWG power                         |
 
-A zip file will be provid that can be imported into a Digi-Key List or Cart.
+A CSV file has been provided that can be imported into a Digi-Key List or Cart.
 
 The header is optional and will cut or snap into the two pieces you can use for DuPont connectors.
