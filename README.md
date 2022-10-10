@@ -6,6 +6,8 @@ Welcome to the USB Power Injector project.
 
 The purpose of this project is to boost a wimpy USB port's power output by inserting a high current voltage follower into the power path. The data lines will not be altered.
 
+![](img/USB-PI-top.png)
+
 ## Components
 
 There are two USB-A terminated cables, one male, one female. Buy a short one, cut it in half, solder the leads to the board.
@@ -26,17 +28,30 @@ You'll see cut jumpers in the schematic and on the board. This is my current way
 
 **Unbuilt and untested.** **Use at your own risk.** No warranty is implied. This is a DIY project. Things go wrong.
 
-A parts list is below. The CSV [parts list file](board/USB-PI-DK-parts.csv) is in the board directory. 3-D printed enclosure files are pending.
+Tasks:
 
-...
+- [x] Order Parts
+- [ ] Protoboard Test
+- [ ] Order Boards
+- [ ] Design & Print Enclosure
+- [ ] Test Assembled Board(s)
+- [ ] Docs & Instructions
+- [ ] Assemble Kits
 
-## Schematic and Board Images:
+|    Date    | Notes                                                        |
+| :--------: | ------------------------------------------------------------ |
+| 2022-10-10 | I've ordered parts for (10) kits (just not all the cables) since I seem to be out of LM317s. I can use LT1084s for testing. |
+
+ A parts list is below. The CSV [parts list file](board/USB-PI-DK-parts.csv) is in the board directory. 3-D printed enclosure files are pending.
+
+## ToDo List
+
+* Get LM317s and possibly add copper pads top and bottom with vias for heat dissipation.
+* Maybe add a 10uF cap to the LM317s ADJ pin for ripple rejection.
+
+## Schematic
 
 ![schematic](img/USB-PI-schematic.png)
-
-
-
-![](img/USB-PI-top.png)
 
 
 
