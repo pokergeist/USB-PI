@@ -70,7 +70,10 @@ Tasks:
 |  Power Connector  | 2.1mm ID x 5.5mm OD |   -   |    -     |     [CP-002A-ND](https://www.digikey.com/short/zqmbpp04)     | **Unverified footprint**                          |
 | USB Header In/Out |         1x4         | 0.1"  | 39.4 mil |   [S1211EC-08-ND](https://www.digikey.com/short/m4cnmnhh)    | 1x8 break-away .032" contact 3A gold **OPTIONAL** |
 |       Cable       |      UR024-001      |   -   |    -     |      [TL502-ND](https://www.digikey.com/short/z9fq5374)      | Tripp Lite 1' 24AWG power                         |
+|    DC Adapter     |                     |       |          |      [D-K Sort](https://www.digikey.com/short/7ft35n9b)      | 7.5VDC 2.0A preferred (*)                         |
 
 A CSV file has been provided that can be imported into a Digi-Key List or Cart.
 
 The header is optional and will cut or snap into the two pieces you can use for DuPont connectors.
+
+\* Lower voltage (but >6VDC) is preferred to reduce regulator heat output. More current capability is okay, it's just more expensive usually. The search is sorted by voltage, not by price.
