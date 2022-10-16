@@ -59,18 +59,20 @@ Tasks:
 
 ## Parts List
 
-|     Location      |        Value        | Pitch |  Drill   |                          Digi-Key #                          | Notes                                             |
-| :---------------: | :-----------------: | :---: | :------: | :----------------------------------------------------------: | ------------------------------------------------- |
-|        U1         |       LM358P        | 9DIP  |    -     |   [296-1395-5-ND](https://www.digikey.com/short/cn50dbq5)    | Opamp                                             |
-|        U2         |       LM317BT       | TO220 |    -     |    [497-19621-ND](https://www.digikey.com/short/9fvhrfmm)    | LDO linear voltage regulator                      |
-|        C1         |        0.1µF        | 0.2"  | 32.0 mil | [399-C322C104K5R5TA7303CT-ND](https://www.digikey.com/short/w4d7qbqn) | 50V X7R ceramic                                   |
-|        C2         |        1.0µF        | 0.2"  | 32.0 mil |   [399-13938-1-ND](https://www.digikey.com/short/w4hqd3b3)   | 50V X7R ceramic                                   |
-|        D1         |       1N4001        | 0.4"  | 44.0 mil | [1N4001-E3/73GICT-ND](https://www.digikey.com/short/9t2nj8h2) | 50V 1A                                            |
-|       R1 R2       |        470Ω         | 0.4"  | 32.0 mil |     [S470HCT-ND](https://www.digikey.com/short/qfv9j77w)     | 1/2W 5%                                           |
-|  Power Connector  | 2.1mm ID x 5.5mm OD |   -   |    -     |     [CP-002A-ND](https://www.digikey.com/short/zqmbpp04)     | **Unverified footprint**                          |
-| USB Header In/Out |         1x4         | 0.1"  | 39.4 mil |   [S1211EC-08-ND](https://www.digikey.com/short/m4cnmnhh)    | 1x8 break-away .032" contact 3A gold **OPTIONAL** |
-|       Cable       |      UR024-001      |   -   |    -     |      [TL502-ND](https://www.digikey.com/short/z9fq5374)      | Tripp Lite 1' 24AWG power                         |
-|    DC Adapter     |                     |       |          |      [D-K Sort](https://www.digikey.com/short/7ft35n9b)      | 7.5VDC 2.0A preferred (*)                         |
+|        Location        |        Value        | Pitch |  Drill   |                          Digi-Key #                          | Notes                                                  |
+| :--------------------: | :-----------------: | :---: | :------: | :----------------------------------------------------------: | ------------------------------------------------------ |
+|           U1           |       LM358P        | 9DIP  |    -     |   [296-1395-5-ND](https://www.digikey.com/short/cn50dbq5)    | Opamp                                                  |
+|           U2           |       LM317BT       | TO220 |    -     |    [497-19621-ND](https://www.digikey.com/short/9fvhrfmm)    | LDO linear voltage regulator                           |
+|           C1           |        0.1µF        | 0.2"  | 32.0 mil | [399-C322C104K5R5TA7303CT-ND](https://www.digikey.com/short/w4d7qbqn) | 50V X7R ceramic                                        |
+|           C2           |        1.0µF        | 0.2"  | 32.0 mil |   [399-13938-1-ND](https://www.digikey.com/short/w4hqd3b3)   | 50V X7R ceramic                                        |
+|           D1           |       1N4001        | 0.4"  | 44.0 mil | [1N4001-E3/73GICT-ND](https://www.digikey.com/short/9t2nj8h2) | 50V 1A                                                 |
+|         R1 R2          |        470Ω         | 0.4"  | 32.0 mil |     [S470HCT-ND](https://www.digikey.com/short/qfv9j77w)     | 1/2W 5%                                                |
+|    Power Connector     | 2.1mm ID x 5.5mm OD |   -   |    -     |     [CP-002A-ND](https://www.digikey.com/short/zqmbpp04)     | **Unverified footprint**                               |
+|   USB Header In/Out    |         1x4         | 0.1"  | 39.4 mil |   [S1211EC-08-ND](https://www.digikey.com/short/m4cnmnhh)    | 1x8 break-away .032" contact 3A gold **OPTIONAL**      |
+|         Cable          |      UR024-001      |   -   |    -     |      [TL502-ND](https://www.digikey.com/short/z9fq5374)      | Tripp Lite 1' 24AWG power (**see alternatives below**) |
+|  Male cable w/ header  |                     |       |          |       [Amazon](https://smile.amazon.com/dp/B06Y5RKMT8)       | USB-A male to 5-pin DuPont (x2)                        |
+| Female cable w/ header |                     |       |          |       [Amazon](https://smile.amazon.com/dp/B06Y5KZC9W)       | USB-A female to 5-pin DuPont header                    |
+|       DC Adapter       |                     |       |          |      [D-K Sort](https://www.digikey.com/short/7ft35n9b)      | 7.5VDC 2.0A preferred (*)                              |
 
 A CSV file has been provided that can be imported into a Digi-Key List or Cart.
 
