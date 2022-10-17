@@ -31,15 +31,18 @@ You'll see cut jumpers in the schematic and on the board. This is my current way
 Tasks:
 
 - [x] Order Parts
-- [ ] Protoboard Test
+- [ ] Protoboard Testing (underway *)
 - [ ] Order Boards
 - [ ] Design & Print Enclosure
 - [ ] Test Assembled Board(s)
 - [ ] Docs & Instructions
 - [ ] Assemble Kits
 
+\* Testing is on-going as I resolve a stability issue.
+
 |    Date    | Notes                                                        |
 | :--------: | ------------------------------------------------------------ |
+| 2022-10-15 | Testing ...                                                  |
 | 2022-10-10 | I've ordered parts for (10) kits (just not all the cables) since I seem to be out of LM317s. I can use LT1084s for testing. |
 
  A parts list is below. The CSV [parts list file](board/USB-PI-DK-parts.csv) is in the board directory. 3-D printed enclosure files are pending.
