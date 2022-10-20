@@ -30,26 +30,24 @@ You'll see cut jumpers in the schematic and on the board. This is my current way
 
 Tasks:
 
-- [x] Order Parts
-- [ ] Protoboard Testing (underway *)
+- [x] Order Parts (received)
+- [ ] Protoboard Testing (underway)
 - [ ] Order Boards
 - [ ] Design & Print Enclosure
 - [ ] Test Assembled Board(s)
 - [ ] Docs & Instructions
 - [ ] Assemble Kits
 
-\* Testing is on-going as I resolve a stability issue.
-
 |    Date    | Notes                                                        |
 | :--------: | ------------------------------------------------------------ |
-| 2022-10-15 | Testing ...                                                  |
+| 2022-10-19 | Testing ... encountering insufficient current and stability issues issues. Investigating various circuit modifications. Behavior is inconsistent with LTSpice simulations. |
 | 2022-10-10 | I've ordered parts for (10) kits (just not all the cables) since I seem to be out of LM317s. I can use LT1084s for testing. |
 
  A parts list is below. The CSV [parts list file](board/USB-PI-DK-parts.csv) is in the board directory. 3-D printed enclosure files are pending.
 
 ## ToDo List
 
-* Get LM317s and possibly add copper pads top and bottom with vias for heat dissipation.
+* Add copper pads top and bottom with vias for heat dissipation (heat sink).
 * Maybe add a 10uF cap to the LM317s ADJ pin for ripple rejection.
 
 ## Schematic
